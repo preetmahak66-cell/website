@@ -1,2 +1,2 @@
 # website
-This is a college websitr
+This is a college website
