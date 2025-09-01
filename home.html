@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Edu IIT Ambala is a top government engineering institute offering B.Tech, M.Tech, and PhD programs in AI, Robotics, and more with top-tier placements.">
+  <meta name="keywords" content="Edu IIT Ambala, Engineering College, B.Tech, M.Tech, PhD, AI, Robotics, Data Science, Placements, Government Institute">
+  <meta name="author" content="Edu IIT Ambala Team">
+  <link rel="stylesheet" href="style.css">
+  <title>Edu IIT Ambala - Government Engineering Institute</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="top-info-bar">
+    <div class="info-left">
+      <span>Email: info@eduiitambala.ac.in</span>
+      <span>Phone: +91-9876543210</span>
+    </div>
+    <div class="info-right">
+      <button class="lang" onclick="setLanguage('en')">English</button>
+      <button class="lang" onclick="setLanguage('hi')">हिंदी</button>
+    </div>
+  </div>
+  <header class="main-header">
+    <img src="https://png.pngtree.com/png-vector/20230306/ourlarge/pngtree-scool-college-logo-victor-vector-png-image_6634445.png" class="logo" alt="Edu IIT Ambala Logo" />
+    <div class="site-title">
+      <div class="lang-en">
+        <h1>Edu IIT Ambala</h1>
+        <h3>Government of India | Ministry of Education</h3>
+      </div>
+      <div class="lang-hi">
+        <h1>एडु IIT अंबाला</h1>
+        <h3>भारत सरकार | शिक्षा मंत्रालय</h3>
+      </div>
+    </div>
+  </header>
+  <nav class="main-nav">
+    <a href="home.html"><span class="lang-en">Home</span><span class="lang-hi">मुख्य पृष्ठ</span></a>
+    <a href="about.html"><span class="lang-en">About</span><span class="lang-hi">हमारे बारे में</span></a>
+    <a href="department.html"><span class="lang-en">Department</span><span class="lang-hi">विभाग</span></a>
+    <a href="facilities.html"><span class="lang-en">Facilities</span><span class="lang-hi">सुविधाएँ</span></a>
+    <a href="placements.html"><span class="lang-en">Placements</span><span class="lang-hi">प्लेसमेंट</span></a>
+    <a href="FAQ.html"><span class="lang-en">FAQ</span><span class="lang-hi">प्रश्नोत्तर</span></a>
+  </nav>
+  <section class="hero-section">
+      <div class="social-icon">
+          <a href="https://www.facebook.com/ambalacollege/" target="_blank" class="circle-icon facebook" title="Facebook" > <i class="fab fa-facebook-f"></i></a> 
+          <a href="https://www.linkedin.com/school/ambalacollege" target="_blank" class="circle-icon linkedin-in"><i class="fab fa-linkedin-in"></i></a> 
+          <a href="https://www.youtube.com/@ACEARAmbala" target="_blank" title="youtube"  class="circle-icon youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+    <div class="hero-content">
+      <div class="lang-en">
+        <h2>Shaping India's Future Engineers</h2>
+        <p>Join Edu IIT Ambala — a government engineering institute with excellence in AI, Robotics, and more</p>
+        <a href="about.html" class="btn">Explore More</a>
+      </div>
+      <div class="lang-hi">
+        <h2>भारत के भविष्य के इंजीनियरों को तैयार करना</h2>
+        <p>Edu IIT Ambala में शामिल हों — एक सरकारी इंजीनियरिंग संस्थान जो एआई, रोबोटिक्स और अन्य क्षेत्रों में उत्कृष्टता प्रदान करता है</p>
+        <a href="about.html" class="btn">और जानें</a>
+      </div>
+    </div>
+
+  </section>
+  <section class="content">
+    <div class="lang-en">
+      <h2>Welcome to Edu IIT Ambala</h2>
+      <p>At Edu IIT Ambala, we are committed to academic excellence, real-world skills, and preparing students for top-tier placements through our dynamic curriculum and experienced faculty.</p>
+      <a href="#login-modal" class="btn">Login</a>
+      <a href="#register-modal" class="btn">Register</a>
+    </div>
+    <div class="lang-hi">
+      <h2>Edu IIT अंबाला में आपका स्वागत है</h2>
+      <p>हम Edu IIT अंबाला में शैक्षणिक उत्कृष्टता, व्यावहारिक कौशल और छात्रों को शीर्ष प्लेसमेंट के लिए तैयार करने के लिए प्रतिबद्ध हैं — हमारे गतिशील पाठ्यक्रम और अनुभवी फैकल्टी के माध्यम से।</p>
+      <a href="#login-modal" class="btn">लॉगिन</a>
+      <a href="#register-modal" class="btn">रजिस्टर</a>
+    </div>
+  </section>
+<div id="login-modal" class="modal">
+  <div class="modal-box">
+    <span class="close-btn" onclick="closeModal('login-modal')">&times;</span>
+    <h2>Login</h2>
+
+    <input type="text" placeholder="Username" class="input-box" />
+    <input type="password" placeholder="Password" class="input-box" />
+
+    <div class="login-options">
+      <a href="#" style="color: black;">Forgot Password?</a>
+    </div>
+
+    <button class="login-btn">Login</button>
+    <p>Don't have an account? <a href="#register-modal" style="color: black;">Register here</a></p>
+  </div>
+</div>
+<div id="register-modal" class="modal">
+  <div class="modal-box">
+    <span class="close-btn" onclick="closeModal('register-modal')">&times;</span>
+    <h2>Create Account</h2>
+    <p>Fill your details to register</p>
+
+    <input type="text" placeholder=" Full Name" class="input-box" />
+    <input type="email" placeholder=" Email address" class="input-box" />
+    <input type="password" placeholder=" Create password" class="input-box" />
+    <input type="password" placeholder=" Confirm password" class="input-box" />
+
+    <button class="login-btn">Register</button>
+    <p>Already have an account? <a href="#login-modal" style="color: black;">Login here</a></p>
+  </div>
+</div>
+
+<script>
+  
+  function clearModalInputs(modalId) {
+    document.querySelectorAll(`#${modalId} input`).forEach(input => input.value = "");
+  }
+  function openModal(id) {
+    clearModalInputs(id); 
+    document.getElementById(id).style.display = 'block';
+  }
+  function closeModal(id) {
+    document.getElementById(id).style.display = 'none';
+    clearModalInputs(id);
+  }
+
+
+  window.onclick = function(e) {
+    ['login-modal', 'register-modal'].forEach(id => {
+      if (e.target.id === id) closeModal(id);
+    });
+  };
+
+  
+  const openLoginBtn = document.querySelector('a[href="#login-modal"]');
+  if (openLoginBtn) {
+    openLoginBtn.onclick = function(e) {
+      e.preventDefault();
+      openModal('login-modal');
+    };
+  }
+
+  const openRegisterBtn = document.querySelector('a[href="#register-modal"]');
+  if (openRegisterBtn) {
+    openRegisterBtn.onclick = function(e) {
+      e.preventDefault();
+      openModal('register-modal');
+    };
+  }
+
+  
+  const registerLinkInLogin = document.querySelector('#login-modal a[href="#register-modal"]');
+  if (registerLinkInLogin) {
+    registerLinkInLogin.onclick = function(e) {
+      e.preventDefault();
+      closeModal('login-modal');
+      openModal('register-modal');
+    };
+  }
+
+  const loginLinkInRegister = document.querySelector('#register-modal a[href="#login-modal"]');
+  if (loginLinkInRegister) {
+    loginLinkInRegister.onclick = function(e) {
+      e.preventDefault();
+      closeModal('register-modal');
+      openModal('login-modal');
+    };
+  }
+  document.querySelector('#register-modal .login-btn').onclick = function() {
+    const name = document.querySelector('#register-modal input[placeholder=" Full Name"]').value.trim();
+    const email = document.querySelector('#register-modal input[placeholder=" Email address"]').value.trim();
+    const pass = document.querySelector('#register-modal input[placeholder=" Create password"]').value.trim();
+    const confirm = document.querySelector('#register-modal input[placeholder=" Confirm password"]').value.trim();
+
+    if (!name || !email || !pass || !confirm) {
+      alert("Please fill in all fields!");
+      return;
+    }
+    if (pass !== confirm) {
+      alert("Passwords do not match!");
+      return;
+    }
+    localStorage.setItem("user", JSON.stringify({ name, email, pass }));
+    alert("Registration successful!");
+    closeModal('register-modal');
+  };
+
+  document.querySelector('#login-modal .login-btn').onclick = function() {
+    const username = document.querySelector('#login-modal input[placeholder="Username"]').value.trim();
+    const password = document.querySelector('#login-modal input[placeholder="Password"]').value.trim();
+
+    if (!username || !password) {
+      alert("Please enter username and password!");
+      return;
+    }
+
+    const storedUser = JSON.parse(localStorage.getItem("user"));
+    if (storedUser && (username === storedUser.name || username === storedUser.email) && password === storedUser.pass) {
+      alert("Login successful!");
+      closeModal('login-modal');
+    } else {
+      alert("Invalid username or password!");
+    }
+  };
+</script>
+
+
+
+
+  <section class="gallery-section" style="text-align: center;background-color:skyblue;">
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; align-items: flex-start; margin-top: 30px;">
+  <div style="flex: 1; min-width: 250px; max-width: 400px; background-color:#ffffff; border: 2px solid #004080; border-radius: 10px; padding: 20px; max-height: 300px; overflow-y: auto;">
+  <div class="lang-en">
+    <h3 style="background-color:#004080; color: white; padding: 10px; border-radius: 5px; text-align: center;">Our Upcoming Events</h3><br>
+
+    <div style="margin-bottom: 20px;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2PfX_UeDpJtXalbWLctlI3Vt89gQAiZES7w&s" style="width:100%; height:100px; object-fit:contain; border: radius 4px;">
+      <h4>Orientation Programe</h4>
+      <p><strong>Date:</strong> 1 August 2025 | 11:00 AM - 12:00 Noon</p>
+      <p>Welcome event for new B.Tech students. Introduction to campus & faculty.</p>
+      <a href="#" class="btn" style="padding:5px 10px;">Register Now</a>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Ox9_aIwUflrOlVvt8nEK_2K3OO-eKSiYAMg0ZhKQfRuxLgXmfdrcmGPCzKCEJZwXjwo&usqp=CAU" style="width:100%; height:100px; object-fit:contain; border-radius:8px;">
+      <h4>AI Workshop</h4>
+      <p><strong>Date:</strong> 10 August 2025 | 2:00 PM - 4:00 PM</p>
+      <p>Hands-on session on Artificial Intelligence and applications in real life.</p>
+      <a href="#" class="btn" style="padding:5px 10px;">Register Now</a>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <img src="https://thumbs.dreamstime.com/b/high-tech-roll-up-banner-design-robotics-expo-humanoid-robot-glowing-blue-eyes-digital-patterns-create-futuristic-366454474.jpg" style="width:100%; height:100px; object-fit:contain; border-radius:8px;">
+      <h4>Robotics Expo</h4>
+      <p><strong>Date:</strong> 15 August 2025 | 12:00 PM - 3:00 PM</p>
+      <p>Exhibition of student-built robots and innovative tech demos.</p>
+      <a href="#" class="btn" style="padding:5px 10px;">Register Now</a>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdTOGSua9vyN0LkbjYsAQ7mT_15PZjMnPz3g&s" style="width:100%; height:100px; object-fit:contain; border-radius:8px;">
+      <h4>Data Science Seminar</h4>
+      <p><strong>Date:</strong> 25 August 2025 | 10:00 AM - 1:00 PM</p>
+      <p>Seminar on Data Analytics, AI, and ML career opportunities.</p>
+      <a href="#" class="btn" style="padding:5px 10px;">Register Now</a>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <img src="https://www.shutterstock.com/image-vector/hackathon-information-technology-idea-competition-260nw-2402164347.jpg" style="width:100%; height: 100px; object-fit:contain; border-radius:8px;">
+      <h4>Coding Hackathon</h4>
+      <p><strong>Date:</strong> 28 August 2025 | 9:00 AM - 6:00 PM</p>
+      <p>24-hour coding marathon to test your skills and win prizes.</p>
+      <a href="#" class="btn" style="padding:5px 10px;">Register Now</a>
+    </div>
+
+    <div style="margin-bottom: 10px;">
+      <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/career-counselling-2023-2024-poster-design-template-0e6bbd640d71afaf3f48e6dfa23222d3_screen.jpg?ts=1702301602" style="width:100%; height:100px; object-fit:contain; border-radius:8px;">
+      <h4>Career Counselling</h4>
+      <p><strong>Date:</strong> 30 August 2025 | 3:00 PM - 5:00 PM</p>
+      <p>Interactive session with industry experts to plan your career path.</p>
+      <a href="#" class="btn" style="padding:5px 10px;">Register Now</a>
+    </div>
+  </div>
+  <div class="lang-hi" style="display: none;">
+    <h3 style="background-color:#004080; color: white; padding: 10px; border-radius: 5px; text-align: center;">आगामी कार्यक्रम</h3><br>
+
+    <div style="margin-bottom: 20px;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2PfX_UeDpJtXalbWLctlI3Vt89gQAiZES7w&s" style="width:100%; height:100px; object-fit:contain; border-radius:8px;">
+      <h4>ओरिएंटेशन प्रोग्राम</h4>
+      <p><strong>तिथि:</strong> 1 अगस्त 2025 | सुबह 11:00 - 12:00</p>
+      <p>नव छात्रों का स्वागत और संस्थान का परिचय कार्यक्रम।</p>
+      <a href="#" class="btn" style="padding:5px 10px;">रजिस्टर करें</a>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Ox9_aIwUflrOlVvt8nEK_2K3OO-eKSiYAMg0ZhKQfRuxLgXmfdrcmGPCzKCEJZwXjwo&usqp=CAU" style="width:100%; height:100px; object-fit:contain; border-radius:8px;">
+      <h4>एआई कार्यशाला</h4>
+      <p><strong>तिथि:</strong> 10 अगस्त 2025 | दोपहर 2:00 - 4:00</p>
+      <p>कृत्रिम बुद्धिमत्ता पर व्यावहारिक कार्यशाला।</p>
+      <a href="#" class="btn" style="padding:5px 10px;">रजिस्टर करें</a>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <img src="https://thumbs.dreamstime.com/b/high-tech-roll-up-banner-design-robotics-expo-humanoid-robot-glowing-blue-eyes-digital-patterns-create-futuristic-366454474.jpg" style="width:100%; height:100px; object-fit:contain; border-radius:8px;">
+      <h4>रोबोटिक्स प्रदर्शनी</h4>
+      <p><strong>तिथि:</strong> 15 अगस्त 2025 | दोपहर 12:00 - 3:00</p>
+      <p>छात्रों द्वारा निर्मित रोबोट्स का प्रदर्शन।</p>
+      <a href="#" class="btn" style="padding:5px 10px;">रजिस्टर करें</a>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdTOGSua9vyN0LkbjYsAQ7mT_15PZjMnPz3g&s" style="width:100%; height:100px; object-fit:contain; border-radius:8px;">
+      <h4>डेटा साइंस संगोष्ठी</h4>
+      <p><strong>तिथि:</strong> 25 अगस्त 2025 | सुबह 10:00 - 1:00</p>
+      <p>डेटा एनालिटिक्स और AI/ML करियर की जानकारी।</p>
+      <a href="#" class="btn" style="padding:5px 10px;">रजिस्टर करें</a>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <img src="https://www.shutterstock.com/image-vector/hackathon-information-technology-idea-competition-260nw-2402164347.jpg" style="width:100%; height:100px; object-fit:contain; border-radius:8px;">
+      <h4>कोडिंग हैकाथॉन</h4>
+      <p><strong>तिथि:</strong> 28 अगस्त 2025 | सुबह 9:00 - शाम 6:00</p>
+      <p>24 घंटे का कोडिंग मैराथन - पुरस्कार जीतें!</p>
+      <a href="#" class="btn" style="padding:5px 10px;">रजिस्टर करें</a>
+    </div>
+
+    <div style="margin-bottom: 10px;">
+      <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/career-counselling-2023-2024-poster-design-template-0e6bbd640d71afaf3f48e6dfa23222d3_screen.jpg?ts=1702301602" style="width:100%; height:100px; object-fit:contain; border-radius:8px;">
+      <h4>कैरियर काउंसलिंग</h4>
+      <p><strong>तिथि:</strong> 30 अगस्त 2025 | शाम 3:00 - 5:00</p>
+      <p>उद्योग विशेषज्ञों के साथ कैरियर योजना सत्र।</p>
+      <a href="#" class="btn" style="padding:5px 10px;">रजिस्टर करें</a>
+    </div>
+  </div>
+</div>
+    <div class="gal-container">
+      <img id="image" src="https://wallpaperaccess.com/full/2245179.jpg" alt="Campus 1">
+    </div>
+    <div style="flex: 1; min-width: 250px; max-width: 400px; background-color: #ffffff; border: 2px solid #004080; border-radius: 10px; padding: 20px;height: 300px;overflow: hidden;position: relative;">
+      <div class="lang-en">
+        <h3 style="background-color:#004080; color: white; padding: 10px; border-radius: 5px;">Notices</h3><br>
+        <div style="height: 230px;overflow: hidden;position: relative;">
+          <div style="display: inline-block;animation: scrollUp 10s linear infinite;">
+            <ul style="list-style-type: disc; padding-left: 20px;" >
+              <li style="margin-bottom:12px;">Library hours extended till 9 PM(Mon-Sat)</li><br>
+              <li style="margin-bottom: 12px;">Wi-Fi Login Update - Check student portal</li><br>
+              <li style="margin-bottom: 12px;">Bus route change from 3rd Aug</li><br>
+              <li style="margin-bottom: 12px;">Scholariship from submission last date:12th Aug</li><br>
+              <li style="margin-bottom: 12px;">lab coat mandatory for all practical classes</li><br>
+              <li style="margin-bottom: 12px;">Internal assignment portal opens from 7th Aug</li><br>
+            </ul>
+          </div>
+        </div>
+       </div>
+
+       <div class="lang-hi" style="display: none;">
+        <h3 style="background-color:#004080; color: white; padding: 10px; border-radius: 5px;">Notices</h3>
+        <div style="height: 230px; overflow: hidden; position: relative;">
+          <div style="display: inline-block;animation: scrollUp 10s linear infinite;">
+            <ul style="list-style-type: disc; padding: 20px;">
+              <li style="margin-bottom: 12px;"> पुस्तकालय समय: अब रात 9:00 बजे तक (सोमवार – शनिवार)</li><br>
+              <li style="margin-bottom: 12px;">वाई-फाई लॉगिन अपडेट – कृपया छात्र पोर्टल देखें </li><br>
+              <li style="margin-bottom: 12px;">बस मार्ग में परिवर्तन 3 अगस्त से  </li><br>
+              <li style="margin-bottom: 12px;"> छात्रवृत्ति प्रपत्र जमा करने की अंतिम तिथि – 12 अगस्त </li><br>
+              <li style="margin-bottom: 12px;"> सभी प्रायोगिक कक्षाओं के लिए लैब कोट अनिवार्य है</li><br>
+              <li style="margin-bottom: 12px;"> आंतरिक असाइनमेंट पोर्टल 7 अगस्त से खुलेग</li><br>
+            </ul>
+          </div>
+        </div>
+       </div>
+     </div>
+     <style>
+      @keyframes scrollUp {
+        0% { transform: translateY(100%);}
+        100% {transform: translateY(-100%);}
+      }
+     </style>
+</section>
+
+<script>
+  const images = [
+    "https://wallpaperaccess.com/full/2245179.jpg",
+    "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=800&q=80",
+    "https://img.freepik.com/premium-photo/cheerful-indian-asian-young-group-college-students-friends-laughing-together-while-sitting-standing-walking-campus_466689-8628.jpg?w=2000"
+  ];
+  let currentImageIndex = 0;
+  const image = document.getElementById("image");
+  setInterval(() => {
+    currentImageIndex = (currentImageIndex + 1) % images.length;
+    image.src = images[currentImageIndex];
+  }, 2000);
+</script>
+     
+  <section style="background-color: #003366; color: white; padding: 40px 20px;">
+    <div style="display: flex; flex-wrap: wrap; width: 100%; justify-content: space-between;">
+    <div style="flex: 1; min-width: 250px; margin-bottom: 20px;">
+      <img src="https://png.pngtree.com/png-vector/20230306/ourlarge/pngtree-scool-college-logo-victor-vector-png-image_6634445.png" alt="Edu IIT Ambala Logo" style="width: 120px; margin-bottom: 15px;">
+      <div class="lang-en">
+        <p><strong>Edu IIT Ambala</strong><br>
+          NH-44, Ambala Cantt, Haryana, INDIA – 133001<br>
+          📧 info@eduiitambala.ac.in<br>
+          ☎ +91-9876543210<br><br>
+          <strong>Follow Us:</strong><br>
+          <div style="display: flex; gap: 15px;margin-top: 15px;">
+          <a href="https://www.facebook.com/ambalacollege/" target="_blank" class="circle-icon facebook" title="Facebook" > <i class="fab fa-facebook-f"></i></a> |
+          <a href="https://www.linkedin.com/school/ambalacollege" target="_blank" class="circle-icon linkedin-in"><i class="fab fa-linkedin-in"></i></a> |
+          <a href="https://www.youtube.com/@ACEARAmbala" target="_blank" title="youtube"  class="circle-icon youtube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </p>
+      </div>
+      <div class="lang-hi" style="display: none;">
+        <p><strong>एडु IIT अंबाला</strong><br>
+          NH-44, अंबाला छावनी, हरियाणा, भारत – 133001<br>
+          📧 info@eduiitambala.ac.in<br>
+          ☎ +91-9876543210<br><br>
+          <strong>हमें फॉलो करें:</strong><br>
+          <div style="display: flex; gap: 15px;margin-top: 15px;">
+          <a href="https://www.facebook.com/ambalacollege/" target="_blank" class="circle-icon facebook" title="Facebook" > <i class="fab fa-facebook-f"></i></a> |
+          <a href="https://www.linkedin.com/school/ambalacollege" target="_blank" class="circle-icon linkedin-in"><i class="fab fa-linkedin-in"></i></a> |
+          <a href="https://www.youtube.com/@ACEARAmbala" target="_blank" title="youtube"  class="circle-icon youtube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </p>
+      </div>
+    </div>
+    <div style="flex: 1; min-width: 250px; margin-bottom: 20px;">
+      <div class="lang-en">
+        <h3>Quick Links</h3>
+        <ul style="list-style: none; padding: 0;">
+          <li><a href="about.html" style="color: white;"> About </a></li>
+          <li><a href="department.html" style="color: white;">Department</a></li>
+          <li><a href="placements.html" style="color: white;">Placements</a></li>
+          <li><a href="FAQ.html" style="color: white;"> FAQ</a></li>
+        </ul>
+      </div>
+      <div class="lang-hi" style="display: none;">
+        <h3>त्वरित लिंक्स</h3>
+        <ul style="list-style: none; padding: 0;">
+          <li><a href="about.html" style="color: white;"> हमारे बारे में</a></li>
+          <li><a href="department.html" style="color: white;">विभाग</a></li>
+          <li><a href="placements.html" style="color: white;"> प्लेसमेंट</a></li>
+          <li><a href="FAQ.html" style="color: white;">प्रश्नोत्तर</a></li>
+        </ul>
+      </div>
+    </div>
+    <div style="flex: 1; min-width: 250px; margin-bottom: 20px;">
+      <div class="lang-en">
+        <h3>📍 Find Us</h3>
+      </div>
+      <div class="lang-hi" style="display: none;">
+        <h3>📍 हमें खोजें</h3>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13755.41341488322!2d76.8242872!3d30.3781786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f8d1147c35a4b%3A0xc2202262b0ce0b25!2sAmbala%20Cantt%2C%20Haryana!5e0!3m2!1sen!2sin!4v1722082700000!5m2!1sen!2sin"
+        width="100%" 
+        height="200" 
+        style="border:0; border-radius: 8px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+  <footer>
+    <div class="lang-en">&copy; 2025 Edu IIT Ambala. All rights reserved.</div>
+    <div class="lang-hi">&copy; 2025 Edu IIT अंबाला। सर्वाधिकार सुरक्षित।</div>
+  </footer>
+
+  <script>
+    function setLanguage(lang) {
+      document.querySelectorAll('.lang-en').forEach(el => {
+        el.style.display = (lang === 'en') ? 'block' : 'none';
+      });
+      document.querySelectorAll('.lang-hi').forEach(el => {
+        el.style.display = (lang === 'hi') ? 'block' : 'none';
+      });
+    }
+  </script>
+
+</body>
+</html>
